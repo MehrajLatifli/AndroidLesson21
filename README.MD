@@ -1,5 +1,5 @@
 
-##  Platzi (MVVM architectural pattern, Coroutines and Dependency injection with Hilt in Kotlin)
+##  Fruit Hub(MVVM architectural pattern, Coroutines and Dependency injection with Hilt, safeApiReguest, BaseFragment in Kotlin)
 
 
 
