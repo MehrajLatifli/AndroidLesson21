@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AndroidLesson21" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowSplashScreenBackground">@color/GrapeCreme</item>
+
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo2</item>
+
+        <item name="postSplashScreenTheme">@style/Theme.AndroidLesson21</item>
+
+        <item name="windowSplashScreenAnimationDuration">500</item>
+    </style>
+</resources>
