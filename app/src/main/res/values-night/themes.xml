@@ -8,5 +8,8 @@
         <item name="postSplashScreenTheme">@style/Theme.AndroidLesson21</item>
 
         <item name="windowSplashScreenAnimationDuration">500</item>
+
+        <item name="android:statusBarColor">@color/BlazingOrange</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
 </resources>
