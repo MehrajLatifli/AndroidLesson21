@@ -78,13 +78,17 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>(FragmentHomeBinding::infl
 
     private fun setUpRecyclerView() {
 
-
-        val gridLayoutManager = GridLayoutManager(context, 2)
+        val spanCount = if (isTablet()) 4 else 2
+        val gridLayoutManager = GridLayoutManager(context, spanCount)
         binding.recycleViewHome.layoutManager = gridLayoutManager
         binding.recycleViewHome.adapter = recipeAdapter
+    }
 
 
+    private fun isTablet(): Boolean {
 
+        val configuration = resources.configuration
+        return configuration.smallestScreenWidthDp >= 600
     }
 
     private fun observeData() {
