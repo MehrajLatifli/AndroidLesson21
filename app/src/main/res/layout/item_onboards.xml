@@ -44,7 +44,6 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.5"
                 app:load_image_with_id="@{item.image}" />
-
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
